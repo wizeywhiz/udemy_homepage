@@ -277,10 +277,18 @@
 .vlan{
     display: flex;
     justify-content: center;
+
+    margin-bottom: 50px;
+}
+.vlan>div{
+    margin-right: 50px;
 }
 .vlan-content{
     width: 400px;
-    margin-right: 30px;
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center;
+    /* align-items: center; */
 }
 .vlan-content .title img{
     width: 200px;
