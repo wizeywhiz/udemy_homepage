@@ -22,6 +22,8 @@
     font-size: 1rem;
     font-weight: 600;
     border: 1px solid;
+    text-align: center;
+    vertical-align: middle;
     display: inline-block;
     width: fit-content;
     cursor: pointer;
@@ -32,6 +34,11 @@
 }
 .udm-btn.white:hover{
     background-color: rgb(231, 231, 231);
+}
+.footer .udm-btn.white{
+    color: white;
+    height: 40px;
+    padding-top: 2px;
 }
 
 #event-btns{
@@ -296,4 +303,40 @@
 .vlan-image img{
     width: 400px;
 }
+
+/* footer */
+.footer-container{
+    background-color: black;
+    padding: 30px 2.4rem;
+}
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links .section{
+    margin-right: 10vw;
+}
+.footer-links .section ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer-links .section a{
+    color: white;
+    text-decoration: none;
+}
+.logo-and-copyright{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.logo-and-copyright .footer-logo{
+    width: 80px;
+}
+
 
