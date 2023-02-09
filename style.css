@@ -226,8 +226,15 @@
     background-color: white;
     border: 1px solid gray;
     top: 0;
-    left: 100%;
     z-index: 12;
+}
+.pop-up.one,.pop-up.two,.pop-up.three{    
+    left: 100%;
+    margin-left: 10px;
+}
+.pop-up.four,.pop-up.five{
+    left: -300px;
+    margin-right: 10px;
 }
 
 /* separation label */
