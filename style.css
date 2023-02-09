@@ -187,7 +187,32 @@
 }
 .course *{
     margin-bottom: 4px;
-    margin-right: 8px;
+    margin-right: 20px;
+}
+.course{
+    width: 13.5rem;
+    position: relative;
+}
+.course .course-title{
+    font-size: 1rem;
+}
+.div-cover{
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.39);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 12;
+}
+.course-img{
+    position: relative;
+    width: 100%;
+    height: 120px;
+}
+.course-img img{
+    width: 100%;
+    height: 100%;
 }
 
 /* separation label */
@@ -245,8 +270,10 @@
 .category .cat-img{
     height: 21vw;
     width: 21vw;
-    
-    
+}
+
+.category .cat-img:hover{
+    background-size: 110%;
 }
 
 .cat-img.design{
@@ -338,6 +365,10 @@
     flex-direction: column;  
     justify-content: center;
     /* align-items: center; */
+}
+.vlan-content>p, .vlan-content>p>ul>li{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 .vlan .heading{
     font-family: var(--udemy-ads-font);
