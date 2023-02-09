@@ -13,3 +13,8 @@ document.querySelectorAll('.course').forEach(course =>{
         infoBox.classList.add('hidden');
     })
 })
+
+const closeBtn = document.querySelector('.close-btn')
+closeBtn.addEventListener('click', e => {
+    closeBtn.parentElement.style.display = 'none';
+})
